@@ -12,6 +12,14 @@
     <button type="submit">Enviar</button>
   </form>
 
-  <div *ngFor="let dato of datosIngresados">
-    <p>{{dato.nombre}} - {{dato.email}}</p>
+  <div class="centrar">
+    <div class="fila-datos">
+      <div *ngFor="let dato of datosIngresados" class="datos-item">
+        <p>{{dato.nombre}} - {{dato.email}}</p>
+      </div>
+    </div>
   </div>
+
+
+  
+  
